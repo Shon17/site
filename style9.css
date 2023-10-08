@@ -1,0 +1,40 @@
+body{
+    font-family: 'Trebuchet MS'; align-items: center; background: linear-gradient(to right, rgb(45, 45, 45), rgb(23, 23, 23));
+}
+.header{
+    background: linear-gradient(to right, rgb(255, 128, 0), rgb(203, 61, 0)); color: #f1f1f1; text-align: center; padding: 16px;
+}
+.content{
+    color: white; padding: 16px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4a4a4a;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+li a.active {
+    background: linear-gradient( rgb(255, 128, 0), rgb(181, 54, 0));
+    color: white;
+    }
+    
+      .big{font-size: 100px; color: white;}
+      .less{font-size: 60px; color: white;}

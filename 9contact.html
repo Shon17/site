@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style9.css">
+    <style>
+         @media (max-width: 700px){
+            .black{
+            background-color: black;
+            top: 0px;
+            left: 0px;
+            height: 100%;
+            position: absolute;
+            width: 50%;
+        }}
+        body{
+            background:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+             url(https://thumbs.dreamstime.com/z/%D0%BC%D0%BE%D0%BB%D0%BE%D0%B4%D0%BE%D0%B9-%D1%87%D0%B5%D0%BB%D0%BE%D0%B2%D0%B5%D0%BA-%D1%83%D0%BA%D0%B0%D0%B7%D1%8B%D0%B2%D0%B0%D0%B5%D1%82-%D0%BF%D0%B0%D0%BB%D0%B5%D1%86-%D0%BD%D0%B0%D0%B7%D0%B0%D0%B4-%D0%B8%D0%B7%D0%BE%D0%BB%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D1%8B%D0%B9-%D0%BD%D0%B0-%D0%B1%D0%B5%D0%BB%D0%B8%D0%B7%D0%BD%D0%B5-100064294.jpg);
+            
+        }
+        .header{
+    background: linear-gradient(to right, rgb(255, 225, 0), rgb(218, 149, 0)); color: #f1f1f1; text-align: center; padding: 16px;
+}
+li a.active {
+    background: linear-gradient( rgb(255, 225, 0), rgb(218, 149, 0));
+    color: white;
+    }
+        .content input[type="text"],
+        .content input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            max-width:100%;height:auto;
+        }
+
+        .content input[type="checkbox"] {
+            margin: 10px 0;
+            max-width:100%;height:auto;
+        }
+
+        .content input[type="submit"] {
+            background: linear-gradient( rgb(255, 225, 0), rgb(218, 149, 0));
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            max-width:100%;height:auto;
+        }
+        .center {
+            text-align: center;
+            width: 400px;
+            height: auto;
+            padding: 30px;
+            padding-left: 5px;
+            border-radius: 10px;
+            max-width:100%;height:auto;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="header">Contact</h1>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="9news.html">News</a></li>
+        <li><a class="active" href="9contact.html">Contact</a></li>
+        <li style="float:right"><a href="9aboutus.html">About</a></li>
+       </ul>
+       <div class="center">
+        <h1 class="less">Contact Us!</h1>
+       <form class="content" action="thx.html" method="post" >
+        <input type="text" placeholder="Name" required><br>
+        <input type="text" placeholder="email" required><br>
+        <textarea rows="3" style="width: 319px; height: 70px" placeholder="describe your problem"></textarea><br>
+        <input type="checkbox" required>Agree with Terms of service <br>
+        <input type="submit" value="submit">
+       </form> </div>
+</body>
+</html>
